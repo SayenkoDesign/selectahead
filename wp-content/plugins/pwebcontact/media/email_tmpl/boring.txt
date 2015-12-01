@@ -1,0 +1,10 @@
+Dear {name},
+
+this is a copy of a message you have sent us. Thank you. 
+
+
+{fields}
+
+
+Regards, 
+{site_name} Team

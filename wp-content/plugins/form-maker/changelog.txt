@@ -1,0 +1,261 @@
+Form Maker
+
+1.7.83
+New Add-on: Google Drive Integration
+
+1.7.82
+Fixed: Bug in demo forms
+
+1.7.81
+Fixed: Bug in update
+
+1.7.80
+Changed: Notices
+
+1.7.79
+Fixed: Bug in update
+Fixed: Bug in Save Uploads option
+
+1.7.78
+Changed: Themes
+
+1.7.77
+New Add-on: Dropbox Integration
+
+1.7.76
+Changed: Notices
+
+1.7.75
+Changed: Submissions default ordering
+Changed: Featured Plugins page
+
+1.7.74
+Changed: Updates page
+
+1.7.73
+New: Notices
+
+1.7.72
+Fixed: Bug in Conditional Emails
+
+1.7.71
+New Add-on: Conditional Emails
+
+1.7.69
+Minor bug fixed
+
+1.7.68
+Changed: Compability with WordPress 4.3
+
+1.7.67
+Fixed: Bug in slider field
+Fixed: Bug in address field
+Fixed: Bug in mysql mapping
+
+1.7.66
+Fixed: Bug in Undo/Rendo
+
+1.7.65
+New Add-on: Post Generation
+
+1.7.64
+Minor bug fixed
+
+1.7.63
+New: Add-ons page logo
+
+1.7.62
+New Add-on: User Registration
+
+1.7.61
+New: Form Maker Add-ons page
+New: Update Page
+
+1.7.60
+Minor bug fixed
+
+1.7.59
+Fixed: Bug in csv/xml export
+
+1.7.58
+Fixed: Minor bugs   
+Added: Email verification custom post   
+
+1.7.57
+Fixed: Security issue
+
+1.7.56
+New: ReCaptcha version 2.0
+New: Arithmetic Captcha
+
+1.7.55
+New: Undo/Rendo form
+
+1.7.54
+bug fixed in conditional fields
+
+1.7.53
+Bug fixed in select field
+
+1.7.52
+Minor bug fixed
+
+1.7.51
+Changed: Featured plugins page.  
+New: Featured themes page.  
+
+1.7.50
+Minor bug fixed
+
+1.7.49
+Minor bug fixed
+
+1.7.48
+bug in radio and matrix fields fixed
+
+1.7.47
+Show custom html and section break id
+
+1.7.46
+Enable/Disable Title and Middle Name for Name field
+
+1.7.45
+New: Option to disable past days in date picker
+Fixed: Bug in custom text after submissions
+
+1.7.44
+Security issue fixed
+
+1.7.43
+Email validation
+
+1.7.42
+change wd links "http" to "https"
+bug in reCaptcha fixed
+
+1.7.41
+bug in conditional fields fixed
+
+1.7.40
+Allow to use entry values in "Custom text after submission"
+
+1.7.39
+New: User informetion in mysql mapping
+Fixed: Country names
+
+1.7.38
+bug in stats fixed
+change field value type to longtext
+
+1.7.37
+optimize csv export
+
+1.7.35
+New: Email empty fields option
+
+1.7.34
+New: Validation (Regular Exp.)
+Fixed: Select field duplication
+
+1.7.33
+change upload folder.
+address field line 2 not required.
+
+1.7.32
+bug fixed
+
+1.7.31
+  Bug fixed: Hidden field save to DB.
+  New: Drag and drop options in multiple, single choices and select box.
+  New: Select options from database.
+  New: Add image in email as image.
+  New: Additional clauses within conditional fields.
+  New: Search submissions by ID.
+  New: Submission ID in email.
+
+1.7.29
+  Bug fixed: Delete theme.
+  Bug fixed: Empty From name.
+
+1.7.28
+  Security issue: SQL Injection in SQL mapping.
+  Security issue: Javascript in field and page labels.
+  Security issue: CSRF.
+  Bug fixed: Uploaded file name if exist.
+  Bug fixed: Edit submissions.
+  Bug fixed: Conditional fielsd with quota in labels
+
+1.7.27
+  Bug fixed: csv\xml export.
+
+1.7.26
+  Bug fixed: Email content.
+
+1.7.25
+  Changed: Removed fancybox.
+
+1.7.24
+  display php function to publish form
+
+1.7.23
+  bug in Recaptcha fixed
+
+1.7.22
+  Form field reordering using Drag&Drop
+
+1.7.21
+  wp 4.0.1 shortcode issue fixed
+
+1.7.18
+  pagination with input
+
+1.7.17
+  bug fixed in condition fileds
+
+1.7.16
+  show submitter information in popup (Country, CountryCode, City, Latitude, Longitude)
+
+1.7.15
+  bug fixed
+
+1.7.14
+  csv, xml export mark on map
+
+1.7.13
+  sql mapping
+
+1.7.12
+  extended name edit bug fixed (if first input is empty)
+
+1.7.11
+  hidden field edit bug fixed
+
+1.7.10
+  security issue fixed
+
+1.7.9
+  line break in custom text in email
+
+1.7.8
+  bug fixed in required radio field
+
+1.7.7
+  bug fixed in adding new form
+
+1.7.6
+  new email options, conditional fileds
+
+1.7.5
+  conflict with jetpack fixed
+
+1.7.4
+  bug fixed in form options
+
+1.7.2
+  improve themes
+
+1.7.1
+  bug fixed in email options
+
+1.7
+  Div structured, responsive form Editable form layout New themes.

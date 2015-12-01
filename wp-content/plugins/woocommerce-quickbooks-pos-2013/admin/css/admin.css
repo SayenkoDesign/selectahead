@@ -1,0 +1,480 @@
+.quickbooks h4{
+	margin:0 !important;
+}
+
+#default-accounts table td.label, #order-settings table td.label{
+	width:200px;
+}
+#default-accounts, #order-settings, #default-accounts table, #order-settings table{
+	clear:both;
+	width:100%;
+	float:left;
+}
+#qb-status{
+	position: relative;
+	top:10px;
+}
+#qb-status ul{
+	list-style-type: none;
+}
+#qb-status ul li{
+	float:left;
+}
+#qb-status .flush{
+	float:left;
+}
+#quickbooks_data hr.light-grey{
+	border:none;
+	border-top:1px solid #ddd;
+}
+#quickbooks_data h4,#quickbooks_data a{
+	padding:8px 8px 0 8px;
+	color:#555555;
+	margin:0;
+}
+#woocommerce-product-data ul.product_data_tabs li.quickbooks_options a, #woocommerce-product-data ul.product_data_tabs li.quickbooks_options.active a{
+	line-height: 16px;
+}
+#quickbooks_data p{
+	color:#555;
+	width:50%;
+	
+}
+.product-box{
+	top:10px;
+	min-height:40px;
+}
+form.quickbooks{
+	margin-left:20px;
+}
+.border{
+	border:1px solid #ddd;
+	border-radius:3px;
+	padding:0 10px 10px 10px;
+	float:left;
+}
+.left{
+	float:left;
+}
+.wide{
+	width:350px;
+}
+.medium{
+	width:200px;
+}
+.small{
+	width:115px;
+	margin-right:5px;
+}
+.meta_select{
+	padding:5px 0;
+	float:left;
+	width:75%;
+}
+
+.link{
+	height:15px;
+	float:left;
+	padding:10px 0 10px 5px;;
+	
+}
+.mapping{
+	width:500px;
+	float:left;
+}
+.mapping-row{
+	float:left;
+	width:100%;
+	clear:both;
+	margin-bottom:10px;
+}
+.mapping .mapping-heading{
+	width:100%;
+	float:left;
+}
+.mapping .mapping-heading h4{
+	padding:0;
+	float:left;
+	margin:0;
+	margin-right:2.5%;
+}
+.mapping-row label{
+	width:150px;
+	
+	float:left;
+}
+table.no-display{
+	display:none;
+	visibility: hidden;
+}
+.column-qb_status mark, ul#quickbooks mark{
+	display: block;
+	text-align: center;
+	white-space: nowrap;
+	padding: 0 2px;
+	background: white;
+	border: 1px solid white;
+	-webkit-box-shadow: inset 0 0 2px 1px rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	margin: 0;
+	font-size: 9px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	border-image: initial;
+	min-width:100px;
+}
+.column-qb_status mark.requeue{
+	background-color: #b83c3c;
+	border-color: #b83c3c;
+	width:25%;
+}
+.column-qb_status mark.requeue a, ul#quickbooks mark.requeue a {
+	color:white;
+}
+ul#quickbooks mark.requeue{
+	background-color: #b83c3c;
+	border-color: #b83c3c;
+	
+}
+ul#quickbooks mark.requeued{
+	background-color: #e39600;
+	border-color: #e39600;
+	
+}
+.column-qb_status mark.posted, mark.posted{
+	background-color: #359c38;
+	border-color: #359c38;
+	width:25%;
+}
+ul#quickbooks mark.posted{
+	background-color: #359c38;
+	border-color: #359c38;
+	
+}
+.column-qb_status mark.queued{
+	background-color: #E66F00;
+	border-color: #E66F00;
+	width:25%;
+}
+mark.refreshing{
+	display: block;
+	text-align: center;
+	white-space: nowrap;
+	padding: 0 20px;
+	background: white;
+	border: 1px solid white;
+	-webkit-box-shadow: inset 0 0 2px 1px rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	margin: 0;
+	font-size: 9px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	border-image: initial;
+	
+	background-color: #7a7a7a;
+	border-color: #7a7a7a;
+	float:left;
+}
+#icon-quickbooks{
+	background:url('images/quickbooks-icon.png') no-repeat center;
+}
+
+
+.toggle {
+
+}
+
+/* Switch */
+.toggle {
+    position: relative;
+	display: block;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	float:left;
+	left:100px;
+}
+
+/* Position the label over all the elements, except the toggle-button
+ * Clicking anywhere on the label will change the switch-state
+ */
+.toggle label {
+	position: relative;
+	z-index: 3;
+
+	display: block;
+	width: 100%;
+	padding: 3px 0;
+}
+
+/* Don't hide the input from screen-readers and keyboard access
+ * Just position it offscreen
+ */
+.toggle input {
+    position: absolute;
+	top: -9999px;
+}
+
+/* Outline the toggle when the input is focused */
+.toggle input:focus ~ .toggle-button {
+	outline: 1px dotted #fff;
+}
+
+/* Track */
+.toggle label:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+	display: block;
+	width: 80px;
+	height: 17px;
+	padding: 2px 0;
+
+	background-color: #dd7e6d;	
+	border: 1px solid #b15b4d;
+	border-radius: 2px;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.17), 0 1px 0px rgba(255, 255, 255, 0.9);
+
+	/* Text labels */
+	content: "OFF \a ON";
+	white-space: pre;
+	color: #8f5247;
+	font-weight: bold;
+	text-align: center;
+	
+	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.4);
+
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 0;
+	-moz-column-gap: 0;
+	column-gap: 0;
+}
+
+/* We could use label:after to create the toggle button
+ * But we won't be able to use transitions on it, except in Firefox
+ */
+.toggle span {
+	display: block;
+	position: absolute;
+	right: -1px;
+	top: -2px;
+	z-index: 4;
+	width: 40px;
+	height: 25px;
+
+	border: 1px solid #bbbbbb;
+
+	background-color: #f7f7f7; 
+	background-image: -webkit-linear-gradient(top, #f7f7f7, #ececec); 
+	background-image:    -moz-linear-gradient(top, #f7f7f7, #ececec); 
+	background-image:     -ms-linear-gradient(top, #f7f7f7, #ececec); 
+	background-image:      -o-linear-gradient(top, #f7f7f7, #ececec); 
+	background-image:         linear-gradient(top, #f7f7f7, #ececec);  
+
+	box-shadow: inset 0 1px 2px rgba(255, 255, 255, 1), 0 1px 1px rgba(0, 0, 0, 0.12);
+	border-radius: 2px;
+
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.toggle input:checked ~ span {
+	right: 45px;
+}
+
+.toggle input:checked + label:after {
+	background-color: #a0c66b;
+	border-color: #87aa5b;
+
+	color: #60783f;
+}
+
+.quickbooks-webconnector{
+	background: #F1F1F1 url(images/download_icon.png) no-repeat 4px 4px;
+	padding: 4px 18px 4px 24px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	width: 220px;
+	float: right;
+	margin: 9px 0 -40px;
+	position: relative;
+	min-height:24px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+	color: #555;
+	border:1px solid #cfcfcf;
+}
+#faqs{
+	float:right;
+	width:50%;
+}
+#faqs h4  { 
+	cursor:pointer; 
+	margin:3px;
+	padding-left:15px;
+	background:url(images/plus-icon.png) no-repeat center left;
+}
+#faqs h4.active  { color:#d74646;
+	background:url(images/minus-icon.png) no-repeat center left; }
+#faqs div { height:0; overflow:hidden; position:relative; }
+#faqs div p  { padding:0; margin-bottom:15px; }
+.quickbooks-message {
+	position: relative;
+	z-index: 100;
+	border: 1px solid #1e962a !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 15px rgba( 0,0,0,0.04 );
+	-moz-box-shadow: inset 0 0 15px rgba( 0,0,0,0.04 );
+	box-shadow: inset 0 0 15px rgba( 0,0,0,0.04 );
+	overflow: hidden;
+	padding: 10px 0 10px !important;
+	background: #83b458 !important;
+}	
+.quickbooks-message .squeezer {
+	max-width: 940px;
+	margin: 0;
+	padding: 0 10px;
+	text-align: left;
+	overflow: hidden;
+}
+.quickbooks-message h4 {
+	margin: 0 10px 0 0;
+	font-size: 18px;
+	line-height: 36px;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",Verdana,"Bitstream Vera Sans",sans-serif;
+	font-weight: normal;
+	color: #fff;
+	text-shadow: 0px 1px 1px #b574a8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	vertical-align: middle;
+}
+.quickbooks-message p {
+	margin: 0 !important;
+	padding: 2px 0 !important;
+	float: left;
+	line-height: 32px;
+	vertical-align: middle;
+}
+.quickbooks-message p a.button-primary {
+	font-size: 16px !important;
+	line-height: 16px !important;
+	margin: 0 5px 0 0;
+	padding: 6px 15px;
+	vertical-align: middle;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #1e962a;
+	background: #1e962a;
+	-moz-box-shadow: inset 0 0 2px rgba( 255,255,255,1), 0 1px 1px rgba( 0,0,0,0.1 );
+	-webkit-box-shadow: inset 0 0 2px rgba( 255,255,255,1), 0 1px 1px rgba( 0,0,0,0.1 );
+	box-shadow: inset 0 0 2px rgba( 255,255,255,1), 0 1px 1px rgba( 0,0,0,0.1 );
+	text-shadow: 0px -1px 0px rgba( 0,0,0,0.3);
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	cursor: pointer;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",Verdana,"Bitstream Vera Sans",sans-serif;
+}
+.quickbooks-message p a.button-primary:hover, .quickbooks-message p a.button-primary:active {
+	background-color: #f0a000;
+	border-color: #c87800;
+	-webkit-transition-duration: .3s;
+	outline: none;
+	opacity: 1;
+}
+.quickbooks-message p a.skip, .quickbooks-message p a.docs {
+	opacity: 0.5;
+}
+.quickbooks-message .twitter-share-button {
+	vertical-align: middle;
+}
+span.alert{
+	clear:both;
+	float:left;
+	border:1px solid #cd5729;
+	padding:3px;
+	background: #f6dada;
+	border-radius:3px;
+	
+}
+#product-dept{
+	width:200px !important;
+
+}
+#product-dept .form-table .chzn-container {
+	width: 200px!important;
+	display: inline-block;
+}
+
+#product-dept .chzn-container .chzn-results {
+margin: 0 4px 4px 0;
+max-height: 190px;
+padding: 0 0 0 4px;
+position: relative;
+overflow-x: hidden;
+overflow-y: auto;
+width:200px !important;
+}
+#product-dept .chzn-container-single .chzn-search{
+	padding: 3px 4px;
+	position: relative;
+	margin: 0;
+	white-space: nowrap;
+	z-index: 1010;
+	width:195px;
+}
+#quickbooks_table{
+	clear:both;
+}
+#quickbooks_table .tablenav{
+	float:right;
+}
+#quickbooks_table td.column-buttons a{
+	position:relative;
+	top:5px;
+}
+#quickbooks_table #record_types ul, #record_types ul li{
+	float:left;
+}
+#record_types h3{
+	float:left;
+	padding:5px;
+}
+#record_types ul li{
+	padding:5px;
+	margin:3px 10px 3px 3px;
+}
+#record_types ul li.selected{
+	background:#21759B;
+	border-radius:3px;
+}
+#record_types ul li.selected a{
+	color:#fff;
+	text-decoration:none;
+}
+

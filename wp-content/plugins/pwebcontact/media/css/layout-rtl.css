@@ -1,0 +1,127 @@
+/**
+ * @version 2.0.0
+ * @package Perfect Easy & Powerful Contact Form
+ * @copyright © 2014 Perfect Web sp. z o.o., All rights reserved. http://www.perfect-web.co
+ * @license GNU/GPL http://www.gnu.org/licenses/gpl-3.0.html
+ * @author Piotr Moćko
+ */
+
+.pweb-rtl {
+	direction: rtl;
+}
+
+/* Toggler */
+.pwebcontact_toggler {
+	text-align: right;
+}
+
+/* Container */
+.pweb-rtl .pwebcontact-container {
+	background-position: right top;
+	text-align: right;
+}
+
+.pweb-rtl .pweb-button-close {
+	right: auto;
+	left: 5px;
+}
+/* Lightbox - close button */
+.pweb-rtl.pweb-modal .pweb-button-close {
+	left: -15px;
+}
+
+.pweb-rtl.pweb-accordion.pweb-accordion-boxed .pweb-arrow {
+	left: auto;
+	right: 25%;
+}
+
+
+/* System message */
+.pweb-rtl form.pwebcontact-form .pweb-msg .pweb-progress {
+	padding-left: 0;
+	padding-right: 20px;
+	background-position: right top;
+}
+.pweb-rtl .pweb-accordion form.pwebcontact-form .pweb-msg-before {
+	margin-right: auto;
+	margin-left: 15px;
+}
+
+/* Fields */
+.pweb-rtl form.pwebcontact-form select {
+	padding-right: 4px;
+	padding-left: 2px;
+}
+
+/* Checkboxes and radio group and single checkbox */
+.pweb-rtl form.pwebcontact-form fieldset label,
+.pweb-rtl form.pwebcontact-form .pweb-field-checkbox label {
+	padding-left: 0;
+	padding-right: 16px;
+}
+.pweb-rtl form.pwebcontact-form fieldset label.rokradios,
+.pweb-rtl form.pwebcontact-form fieldset label.rokchecks,
+.pweb-rtl form.pwebcontact-form .pweb-field-checkbox label.rokchecks {
+	padding-left: 0;
+	padding-right: 22px;
+}
+.pweb-rtl form.pwebcontact-form input.pweb-checkbox, 
+.pweb-rtl form.pwebcontact-form input.pweb-radio {
+	margin: 3px 0 0 3px;
+    float: right;
+}
+
+/* Labels inline with fields */
+.pweb-rtl.pweb-labels-inline form.pwebcontact-form .pweb-label,
+.pweb-rtl.pweb-labels-inline form.pwebcontact-form .pweb-field {
+	float: right;
+}
+/* Labels over fields */
+.pweb-rtl.pweb-labels-over form.pwebcontact-form .pweb-label-over .pweb-label {
+	left: auto;
+	right: 0;
+}
+
+/* Calendar */
+.pweb-rtl .pweb-calendar-btn {
+	right: auto;
+	left: 0;
+}
+
+/* Columns */
+.pweb-rtl .pweb-column {
+	float: right;
+	margin-right: 0;
+	margin-left: 3%;
+}
+.pweb-rtl .pweb-column:last-child {
+	margin-left: 0;
+}
+
+/* phone */
+@media (max-width: 480px) 
+{
+	/* disable fields inline */
+	.pweb-rtl.pweb-labels-inline form.pwebcontact-form .pweb-field {
+		float: none;
+	}
+}
+
+/* phone landscape */
+@media (min-width: 481px) and (max-width: 767px) 
+{
+	/* disable fields inline only in columns */
+	.pweb-rtl.pweb-labels-inline form.pwebcontact-form .pweb-column .pweb-field {
+		float: none;
+	}
+}
+
+/* tablet and phone */
+@media (min-width: 768px) and (max-width: 979px) 
+{
+	/* disable fields inline only in 4 and 5 columns */
+	.pweb-rtl.pweb-labels-inline form.pwebcontact-form .pweb-column.pweb-width-25 .pweb-field,
+	.pweb-rtl.pweb-labels-inline form.pwebcontact-form .pweb-column.pweb-width-20 .pweb-field {
+		float: none;
+	}
+}

@@ -1,0 +1,37 @@
+/**
+ * @version 1.0.0
+ * @package Perfect Easy & Powerful Contact Form
+ * @copyright © 2014 Perfect Web sp. z o.o., All rights reserved. http://www.perfect-web.co
+ * @license GNU/GPL http://www.gnu.org/licenses/gpl-3.0.html
+ * @author Piotr Moćko
+ */
+
+/*!
+ * Bootstrap v2.3.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Redeclared styles only for contact form
+ */
+form.pwebcontact-form .tip-text {
+	text-align: right;
+}
+
+.pweb-alert.alert {
+	padding-right: 14px;
+	padding-left: 35px;
+}
+.pweb-alert.alert .close {
+	left: -21px;
+	right: auto;
+}
+
+.pweb-alert .close {
+	float: left;
+}
+
+form.pwebcontact-form .tooltip-inner {
+	text-align: right;
+}

@@ -1,0 +1,13 @@
+{lang:Ticket}: {ticket}
+
+{fields}
+
+
+{lang:Page title}: {title} 
+{lang:Page URL}: {url}
+{lang:IP}: {ip_address} 
+{lang:Browser}: {browser} 
+{lang:Operating system}: {os} 
+{lang:Screen resolution}: {screen_resolution} 
+
+{files}

@@ -1,0 +1,144 @@
+*** WooCommerce Point Of Sale Changelog ***
+2014.10.16 - version 2.0
+ * Feature credit card scanning feature implemented for RealEx, Braintree and Stripe.
+ * Fix bug with user already being logged in.
+ * Tweak to the retrieve sales page.
+ * Tweak to CSS of the product grid.
+ 
+2014.10.07 - version 1.9.1
+ * Fix bug when adding customers, sorry about that.
+ * Feature added when retrieving sales, can now retrieve from other registers.
+
+2014.10.03 - version 1.9
+ * Feature added can now add categories to product grids.
+ * Feature added can now select 'No Shipping' as a shipping option.
+ * Tweak to hover classes, better usage on tablets and phones. 
+ * Tweak functions improving speed and performance.
+ * Fix bug with blank screen registers (nuisance bug, sorry guys).
+
+2014.09.29 - version 1.8.6
+ * Feature added where you can define what discount presets appear when applying discount.
+ * Feature added where you can define what status the order is when completed by POS.
+ * Fix bug with prefix and suffix not appearing.
+
+2014.09.23 - version 1.8.5
+ * Feature added ability to select product grids from the register page.
+ * Feature added to select which product grid a product is assigned to from products page.
+ * Feature added called 'Ready To Scan' which allows you scan straight away.
+ * Fix bug with total including tax when not set or enabled.
+
+2014.09.17 - version 1.8.4
+ * Fix bug when opening a regsiter and blank screen appears.
+ * Fix bug when activating the plugin and register not loading.
+ * Tweak to the Orders Type style on Orders page.
+
+2014.09.11 - version 1.8.3
+ * Fix bug when adding a register to the table.
+
+2014.09.10 - version 1.8.2
+ * Feature compatbility for WooCommerce 2.2.
+ * Fix bugs with customer details.
+
+2014.09.05 - version 1.8.1
+ * Tweak to the main register, payment methods and user interface.
+ * Tweak to the payment icons.
+ * Tweak to the keypad, can now be used using normal keyboard.
+ * Tweak to the quantity keypad adding -/+ buttons.
+ * Tweak to the discount keypad adding currency and % buttons.
+ * Tweak to the cash keypad adding possible cash values.
+ * Fix bug with variable products with no attribute defined.
+ * Fix bug when deleting an Outlet, no more error message.
+
+2014.08.22 - version 1.8
+ * Fix bug when there is an existing tile on the product grid.
+ * Fix for major bug wheere database couldn't open.
+ * Fix number of items recorded to sum all quantities.
+ * Tweak the receipt page.
+ * Feature page added under settings called Layout allows users to customise the registers.
+ * Feature added where you can enable and disable payment methods on the POS only.
+ * Feature added where you can view the status of the register, open or closed.
+
+
+2014.08.22 - version 1.7.1
+ * Fix bug when adding a tile with coloured background.
+ * Fix bug when loading register on a non IndexedDB supported browser.
+ * Fix bug when adding variable products to the cart.
+ * Fix bug when removing products from the basket.
+ * Fix bug with Stripe gateway.
+ * Fix bug when entering quantity through keypad.
+ * Tweak saving orders, now resets the basket.
+ * Tweak retrieving orders, now closes the modal window.
+
+2014.08.12 - version 1.7
+ * Feature of adding products via barcode scanner reader.
+ * Feature of implementing IndexedDB.
+ * Feature added where you can define whether tax settings are inherited from WooCommerce or disabled.
+ * Feature added to allow user to remove the discounts applied.
+ * Tweak to the tile preview page.
+ * Tweak to the shipping field position.
+ * Tweak to the frontend variation.
+ * Tweak to the tiles introduction of tile styles.
+ * Tweak to the orders page to reprint receipts from Orders page.
+ * Fix bug with WooCommerce's Stripe payment gateway.
+ * Fix bug on selecting a state when adding a customer based in US.
+ * Fix bug with undefined index hook_suffix.
+ * Fix bug when voiding the register, closing and reopening it, no longer shows voided items.
+ * Fix bug when adding products as tiles to the product grids.
+ 
+2014.07.17 - verison 1.6
+ * Feature added where you can create an account, username uses the email address and password generated.
+ * Feature added where you can now close the register.
+ * Fix bug where customer fields were not empty when adding a customer.
+ * Fix bug where permalinks and 404 errors were appearing.
+
+2014.07.10 - version 1.5.1
+ * Fix permalink bug.
+ * Fix checkout on shop page bug.
+ * Fix order saving bug.
+
+2014.07.03 - version 1.5
+ * Fix decimal total not working with change.
+ * Fix shipping method not showing when entering customer details.
+ * Fix bug with shipping total not showing on payment screen.
+ * Feature implemented where permalinks are used to display the registers.
+ * Feature added where you can retrieve an order based on pending status and logged in register.
+ * Tweak when searching for product, selecting will auto add.
+ * Tweak showing user no product grid set up when logging in register.
+ * Tweak when adding a regsiter, ensuring name, grid, receipt and outlet set up.
+ * Tweak barcode height.
+ * Tweak barcode continuous print.
+
+2014.06.28 - version 1.4.1
+ * Fix the functionality of End of Sale behaviour.
+ * Fix issue with decimal places on the currency.
+ * Tweak Orders screen with filter for POS and Web orders.
+ * Fix bug with shipping with Guest customer.
+ * Fix End of Sale notes on all sales.
+
+2014.06.23 - version 1.4
+ * Feature new shipping options.
+ * Feature new barcode printing module.
+ * Tweak the create customer screen, now viewable on responsive devices.
+ * Tweak the Outlet address on Outlet screen.
+ * Tweak the currently locked message.
+ * Remove customer balance from the customer panel.
+ * Feature new end of sale actions now operative.
+ * Tweak the orders page.
+ 
+2014.06.12 - version 1.3
+ * Feature where you can now print receipts.
+ * Feature added to the Orders page to show which orders are from online and POS.
+ * Feature added to allow payments from the gateway.
+ * Fix featured image issue when setting it on a product.
+
+2014.06.09 - version 1.2.0
+ * Feature added, you can see who is on each register, assign user to each register.
+ * Feature added, you can now customise the receipts.
+ * Feature added, you can set a tile for variable products.
+
+2014.06.08 - version 1.1.0
+ * Feature added where you can now set grids and tiles for products.
+ * Tweaks made to the user interface.
+
+2014.04.08 - version 1.0.0
+ * Initial release!

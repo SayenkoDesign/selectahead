@@ -1,0 +1,114 @@
+*** WooCommerce Variation Swatches and Photos***
+2014.04.16 - version 1.4.6
+	* Add swatch image size back on the "Products" tab in WC 2.1x
+	
+2014.04.15 - version 1.4.5
+	* Hide reset link by default. 
+        * Changed version on enqueued scripts to resolve any caching issues. 
+
+2014.04.09 - version 1.4.4
+	* Fix for drop downs and swatches when both have a default value. 
+
+2014.04.08 - version 1.4.3
+	* Reset label when Reset Selection is clicked. 
+	* Only show reset label when variation options have been selected. 
+
+2014.03.25 - version 1.4.2
+	* Added wpml-confg file per WPML. 
+	* Maybe unserialize options, per WPML. 
+
+2014.02.19 - version 1.4.1
+	* Added proper template overrides.  Use woocommerce-swatches/single-product/variable.php to your theme to override the main swatches template. 
+
+2014.01.14 - version 1.4.0
+	* WooCommerce 2.1x Compatibility
+
+2013.11.13 - version 1.3.5
+	* Fix:  New label options were not being processed properly in all situations. 
+
+2013.10.21 - version 1.3.4
+	* New:  Added optional labels above the selection area when using swatches.  Configure this new setting
+		under the Layout field when editing a product's swatch configuration. 
+
+2013.10.18 - version 1.3.3
+	* Update: remove double shash in enqueued assets. 
+
+2013.10.16 - version 1.3.2
+	* Update: Added clear selections button. 
+
+2013.08.21 - version 1.3.1
+	* Fix: Custom product attributes and default selections. 
+
+2013.07.24 - version 1.3.0
+	* Fix: Use $product->add_to_cart_url() on the variation form so WooCommerce adds the item to the cart 
+			properly. 
+
+2013.06.18 - version 1.2.9
+	* Update: Default image size 32px if size is empty. 
+
+2013.06.11 - version 1.2.8
+ * Swatches and quick view compatibily
+
+2013.05.20 - version 1.2.7
+  * Fixes
+    * The Swatches and Photos size is correctly registered from the settings screen.
+
+2013.04.04 - version 1.2.6
+  * Fixes
+    * PHP 5.4 compatibility
+
+2013.04.02 - version 1.2.5
+ * Fixes
+    * Sanitize title on all attribute names since 2.x
+
+2013.03.22 - version 1.2.4
+* Updates
+    * Properties of WC_Swatch_Term updated from protected to public
+    * Added the following filters to allow developers to customize properties of the swatches shown on the single-product page
+    *  $href = apply_filters('woocommerce_swatches_get_swatch_href', '#', &$this); //Filters the href of the wrapping anchor tag.
+    *  $anchor_class = apply_filters('woocommerce_swatches_get_swatch_anchor_css_class', 'swatch-anchor', &$this); //Filter the class of the wrapping anchor tag.
+    *  $image_class = apply_filters('woocommerce_swatches_get_swatch_image_css_class', 'swatch-img', &$this); //Filter the class of the image itself.
+    *  $image_alt = apply_filters('woocommerce_swatches_get_swatch_image_alt', 'thumbnail', &$this); //Filter the alternate text of the image itself.
+ * Fixes
+    * Lowercase all attribute names since 2.x
+
+
+2013.03.11 - version 1.2.2
+ * Minor update to resolve conflict with Advanced Custom Fields javascript
+
+2013.03.08 - version 1.2.1
+  * Fixes problem with styles for thick box not being enqueued.
+
+2013.02.12 - version 1.2
+  * WC 2.0 Support
+
+2012.12.04 - version 1.1.2
+  * Swap title on wrapping link for image zoom compatibility
+
+2012.12.04 - version 1.1.1
+ * New updater
+
+2012.11.27 - version 1.1.0
+ *Modified variation form, and variation properties that are available in the script handler.  Since we are now using the default WooCommerce show / hide variation code.
+
+2012.11.21 - version 1.0.6
+ * Updated events which are triggered when variation is selected.  Used to trigger gravity form total updates.
+
+2012.10.01 - version 1.0.5
+ * Compatibility with zoom plugin and swatches and photos
+
+2012.09.14 - version 1.0.4
+ * Fix to render woocommerce default select boxes when no pickers are enabled
+
+2012.09.04 - version 1.0.3
+ * Added title and alt attributes to the main product image
+
+2012.09.03 - version 1.0.2
+ * Removed console log
+ * wp_get_attachment_image_src so size works
+
+2012.06.20 - version 1.0.1
+ * Fixed issue with permissions in media upload box from individual products.
+
+2012.06.14 - version 1.0
+ * First Release

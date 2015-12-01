@@ -1,0 +1,12 @@
+Hi there, how are you?
+
+That's really cool you've decided to contact us. 
+
+Below you can see copy of your message just in case :)
+
+
+{fields}
+
+
+Yours truly,
+{site_name} Robot

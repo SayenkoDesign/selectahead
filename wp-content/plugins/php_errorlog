@@ -1,0 +1,5 @@
+[20-May-2015 08:16:23 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/selectah/public_html/wp-content/plugins/hello.php on line 60
+[01-Jul-2015 23:00:25 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/selectah/public_html/wp-content/plugins/hello.php on line 60
+[24-Aug-2015 15:28:28 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/selectah/public_html/wp-content/plugins/hello.php on line 60
+[08-Sep-2015 00:15:17 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/selectah/public_html/wp-content/plugins/hello.php on line 60
+[27-Sep-2015 19:12:34 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/selectah/public_html/wp-content/plugins/hello.php on line 60

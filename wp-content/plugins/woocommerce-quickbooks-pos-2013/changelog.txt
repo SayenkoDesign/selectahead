@@ -1,0 +1,7 @@
+*** Quickbooks POS Changelog ***
+2014-02-28 - version 1.0.8
+* WC 2.1
+
+2014-02-03 - version 1.0.6
+* fixed xml truncating
+

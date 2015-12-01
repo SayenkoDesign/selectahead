@@ -1,0 +1,284 @@
+/**
+ * @version 1.0.0
+ * @package Perfect Easy & Powerful Contact Form
+ * @copyright © 2014 Perfect Web sp. z o.o., All rights reserved. http://www.perfect-web.co
+ * @license GNU/GPL http://www.gnu.org/licenses/gpl-3.0.html
+ * @author Piotr Moćko
+ */
+ 
+/* Load images in IE7 instead of using Data URI */
+form.pwebcontact-form .pweb-msg .pweb-progress,
+.pweb-modal.modal .modal-body.pweb-progress {
+	*background-image: url(../images/loading.gif); /* IE7 */
+}
+.pweb-modal-close {
+	*background-image: url(../../system/images/modal/closebox.png) !important; /* IE7 */
+}
+
+/* Tooltip */
+form.pwebcontact-form .tooltip {
+	filter: alpha(opacity=0);
+}
+form.pwebcontact-form .tooltip.in {
+	filter: alpha(opacity=80);
+}
+
+/* Add files button */
+form.pwebcontact-form .pweb-uploader .fileinput-button.btn {
+	*padding-top: 0px; /* IE7 */
+}
+.pweb-icomoon form.pwebcontact-form .pweb-uploader .fileinput-button.btn {
+	*padding-bottom: 8px; /* IE7 */
+}
+.pweb-uploader .fileinput-button input {
+	filter: alpha(opacity=0);
+	*font-size: 100%;
+    *height: 100%;
+}
+.pweb-icomoon .pweb-uploader .icon-plus-sign {
+	*display: none; /* IE7 */
+}
+
+/* Fields */
+form.pwebcontact-form input.pweb-input, 
+form.pwebcontact-form select, 
+form.pwebcontact-form textarea {
+	*display: block; /* IE7 */
+}
+form.pwebcontact-form input.pweb-input, 
+form.pwebcontact-form select {
+	*height: 22px; /* IE7 */
+}
+form.pwebcontact-form input.pweb-checkbox, 
+form.pwebcontact-form input.pweb-radio {
+	margin-top: 0;
+}
+
+/* System message */
+form.pwebcontact-form .pweb-msg-button {
+	*display: inline;
+}
+
+/* Lightbox - close button */
+.pweb-modal-close {
+	*right: -5px;
+	*top: -5px;
+}
+.pweb-rtl .pweb-modal-close {
+	*left: -5px;
+}
+
+/* Accordion */
+.pweb-accordion.pweb-accordion-boxed .pwebcontact-container {
+ 	*position: relative;
+	*top: 15px;
+	*margin-top: 0;
+	*margin-bottom: 15px;
+}
+.pweb-accordion.pweb-accordion-boxed .pweb-arrow {
+	*top: -10px;
+}
+.pweb-accordion.pweb-accordion-boxed .pweb-button-close {
+	*top: 0;
+}
+
+/* Toggler tab */
+.pwebcontact_toggler.pweb-toggler-black {
+	-pie-background: linear-gradient(top,#333,#000);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-black {
+	-pie-background: linear-gradient(bottom,#333,#000);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-black {
+	-pie-background: linear-gradient(right,#333,#000);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-black {
+	-pie-background: linear-gradient(left,#333,#000);
+}
+
+.pwebcontact_toggler.pweb-toggler-blue {
+	-pie-background: linear-gradient(top,#08c,#0044cc);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-blue {
+	-pie-background: linear-gradient(bottom,#08c,#0044cc);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-blue {
+	-pie-background: linear-gradient(right,#08c,#0044cc);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-blue {
+	-pie-background: linear-gradient(left,#08c,#0044cc);
+}
+
+.pwebcontact_toggler.pweb-toggler-gray {
+	-pie-background: linear-gradient(top,#cbcbcb,#a2a2a2);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-gray {
+	-pie-background: linear-gradient(bottom,#cbcbcb,#a2a2a2);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-gray {
+	-pie-background: linear-gradient(right,#cbcbcb,#a2a2a2);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-gray {
+	-pie-background: linear-gradient(left,#cbcbcb,#a2a2a2);
+}
+
+.pwebcontact_toggler.pweb-toggler-green {
+	-pie-background: linear-gradient(top,#62c462,#51a351);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-green {
+	-pie-background: linear-gradient(bottom,#62c462,#51a351);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-green {
+	-pie-background: linear-gradient(right,#62c462,#51a351);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-green {
+	-pie-background: linear-gradient(left,#62c462,#51a351);
+}
+
+.pwebcontact_toggler.pweb-toggler-lightblue {
+	-pie-background: linear-gradient(top,#5bc0de,#2f96b4);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-lightblue {
+	-pie-background: linear-gradient(bottom,#5bc0de,#2f96b4);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-lightblue {
+	-pie-background: linear-gradient(right,#5bc0de,#2f96b4);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-lightblue {
+	-pie-background: linear-gradient(left,#5bc0de,#2f96b4);
+}
+
+.pwebcontact_toggler.pweb-toggler-orange {
+	-pie-background: linear-gradient(top,#E56129,#D64C11);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-orange {
+	-pie-background: linear-gradient(bottom,#E56129,#D64C11);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-orange {
+	-pie-background: linear-gradient(right,#E56129,#D64C11);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-orange {
+	-pie-background: linear-gradient(left,#E56129,#D64C11);
+}
+
+.pwebcontact_toggler.pweb-toggler-pink {
+	-pie-background: linear-gradient(top,#E5276C,#CE1458);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-pink {
+	-pie-background: linear-gradient(bottom,#E5276C,#CE1458);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-pink {
+	-pie-background: linear-gradient(right,#E5276C,#CE1458);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-pink {
+	-pie-background: linear-gradient(left,#E5276C,#CE1458);
+}
+
+.pwebcontact_toggler.pweb-toggler-red {
+	-pie-background: linear-gradient(top,#ee5f5b,#bd362f);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-red {
+	-pie-background: linear-gradient(bottom,#ee5f5b,#bd362f);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-red {
+	-pie-background: linear-gradient(right,#ee5f5b,#bd362f);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-red {
+	-pie-background: linear-gradient(left,#ee5f5b,#bd362f);
+}
+
+.pwebcontact_toggler.pweb-toggler-violet {
+	-pie-background: linear-gradient(top,#BD33E0,#A219C4);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-violet {
+	-pie-background: linear-gradient(bottom,#BD33E0,#A219C4);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-violet {
+	-pie-background: linear-gradient(right,#BD33E0,#A219C4);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-violet {
+	-pie-background: linear-gradient(left,#BD33E0,#A219C4);
+}
+
+.pwebcontact_toggler.pweb-toggler-white {
+	-pie-background: linear-gradient(top,#fff,#EFEFEF);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-white {
+	-pie-background: linear-gradient(bottom,#fff,#EFEFEF);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-white {
+	-pie-background: linear-gradient(right,#fff,#EFEFEF);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-white {
+	-pie-background: linear-gradient(left,#fff,#EFEFEF);
+}
+
+.pwebcontact_toggler.pweb-toggler-yellow {
+	-pie-background: linear-gradient(top,#fbb450,#f89406);
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-yellow {
+	-pie-background: linear-gradient(bottom,#fbb450,#f89406);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-yellow {
+	-pie-background: linear-gradient(right,#fbb450,#f89406);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-yellow {
+	-pie-background: linear-gradient(left,#fbb450,#f89406);
+}
+
+
+/*!
+ * Bootstrap v2.3.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Redeclared styles only for contact form
+ */
+
+.pweb-glyphicons [class^="icon-"],
+.pweb-glyphicons [class*=" icon-"] {
+  *margin-right: 0.3em;
+}
+
+.pweb-alert .close {
+  filter: alpha(opacity=20);
+}
+.pweb-alert .close:hover,
+.pweb-alert .close:focus {
+  filter: alpha(opacity=40);
+}
+
+form.pwebcontact-form .btn {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  *display: inline;
+  *margin-left: 0.3em;
+  *background-color: #e6e6e6;
+  *border: 0;
+  *zoom: 1;
+}
+form.pwebcontact-form .btn:first-child {
+  *margin-left: 0;
+}
+form.pwebcontact-form button.btn,
+form.pwebcontact-form input[type="submit"].btn {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+
+.modal-backdrop,
+.modal-backdrop.fade.in {
+  filter: alpha(opacity=80);
+}
+.modal-backdrop.fade.in {
+  *top: 0;
+}
+
+.pweb-uploader .progress {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
+}
+.pweb-uploader .progress .bar {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
+}
