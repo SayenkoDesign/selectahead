@@ -4,33 +4,53 @@ Description: Child theme for the Avada
 Author: Your name here
 Template: Avada
 */
-
 @import url("../Avada/style.css");
-
-
-
 
 .fusion-secondary-menu > ul > li {
     border-left-color: #e72327 !important;
 }
 
 .clean-text {
-	font: 11px 'PTSansRegular',arial,helvetica,sans-serif !important;
-	color:#ff0033;
+    font: 11px 'PTSansRegular', arial, helvetica, sans-serif !important;
+    color: #ff0033;
 }
 
 .project-content .project-info .project-info-box a, .sidebar .widget li a, .sidebar .widget .recentcomments, .sidebar .widget_categories li, #main .post h2 a, .about-author .title a, .shop_attributes tr th, .image-extras a, .products-slider .price .amount, z.my_account_orders thead tr th, .shop_table thead tr th, .cart_totals table th, form.checkout .shop_table tfoot th, form.checkout .payment_methods label, #final-order-details .mini-order-details th, #main .product .product_title, .shop_table.order_details tr th {
     color: #333 !important;
 }
 
-a.button-2,a.button-2:hover{border-style:solid;border-color:#747474!important;border-width:2px!important;color:#747474!important;text-shadow:none !important;-webkit-box-shadow:none !important;-moz-box-shadow:none !important;box-shadow:none !important}a.button-2{background:transparent;background-image:-webkit-gradient( linear, left bottom, left top, from( transparent ), to( transparent ) )!important;background-image:-webkit-linear-gradient( bottom, transparent, transparent )!important;background-image:-moz-linear-gradient( bottom, transparent, transparent )!important;background-image:-o-linear-gradient( bottom, transparent, transparent )!important;background-image:linear-gradient( to top, transparent, transparent )!important}a.button-2:hover{background:rgba(255, 255, 255, 0.15);background-image:-webkit-gradient( linear, left bottom, left top, from( rgba(255, 255, 255, 0.15) ), to( rgba(255, 255, 255, 0.15) ) )!important;background-image:-webkit-linear-gradient( bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) )!important;background-image:-moz-linear-gradient( bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) )!important;background-image:-o-linear-gradient( bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) )!important;background-image:linear-gradient( to top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) )!important}
+a.button-2, a.button-2:hover {
+    border-style: solid;
+    border-color: #747474 !important;
+    border-width: 2px !important;
+    color: #747474 !important;
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important
+}
 
+a.button-2 {
+    background: transparent;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(transparent), to(transparent)) !important;
+    background-image: -webkit-linear-gradient(bottom, transparent, transparent) !important;
+    background-image: -moz-linear-gradient(bottom, transparent, transparent) !important;
+    background-image: -o-linear-gradient(bottom, transparent, transparent) !important;
+    background-image: linear-gradient(to top, transparent, transparent) !important
+}
+
+a.button-2:hover {
+    background: rgba(255, 255, 255, 0.15);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0.15))) !important;
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important;
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important;
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important
+}
 
 .products .count {
 
-
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
-
 
 }
 
@@ -45,8 +65,9 @@ a.button-2,a.button-2:hover{border-style:solid;border-color:#747474!important;bo
 }
 
 .box-huge {
-    width: 275px important!;
+    width: 275px important !;
 }
+
 .box-round, .box-rect, .box-square, .box-hex {
     display: block;
     margin-bottom: 24px;
@@ -60,13 +81,13 @@ a.button-2,a.button-2:hover{border-style:solid;border-color:#747474!important;bo
     z-index: 100;
 }
 
-
 .box-round .box-inner {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
+
 .box-inner {
     height: 100%;
     left: 0;
@@ -77,13 +98,11 @@ a.button-2,a.button-2:hover{border-style:solid;border-color:#747474!important;bo
     width: 100%;
 }
 
-
-
-
 form.cart {
     margin-bottom: 40px;
     margin-top: 40px;
 }
+
 form, fieldset {
     border-bottom-style: none;
     border-left-style-ltr-source: physical;
@@ -103,25 +122,20 @@ form, fieldset {
     padding-top: 0;
 }
 
-
- body, .post .post-content, .post-content blockquote, .tab-holder .news-list li .post-holder .meta, #sidebar #jtwt, .meta, .review blockquote div, .search input, .project-content .project-info h4, .title-row,.simple-products-slider .price .amount, .quantity .qty, .quantity .minus, .quantity .plus, .blog-shortcode h3.timeline-title, #reviews #comments > h2 {
+body, .post .post-content, .post-content blockquote, .tab-holder .news-list li .post-holder .meta, #sidebar #jtwt, .meta, .review blockquote div, .search input, .project-content .project-info h4, .title-row, .simple-products-slider .price .amount, .quantity .qty, .quantity .minus, .quantity .plus, .blog-shortcode h3.timeline-title, #reviews #comments > h2 {
     color: #747474 !important;
     font-size: 14px !important;;
 }
 
-
 table {
     border-collapse: collapse;
- 
+
     text-transform: uppercase;
 }
-
-
 
 input#s, input#s .placeholder, #comment-input input, #comment-textarea textarea, #comment-input .placeholder, #comment-textarea .placeholder, .comment-form-comment textarea, .input-text, .wpcf7-form .wpcf7-text, .wpcf7-form .wpcf7-quiz, .wpcf7-form .wpcf7-number, .wpcf7-form textarea, .wpcf7-form .wpcf7-select, .wpcf7-select-parent .select-arrow, .wpcf7-captchar, .wpcf7-form .wpcf7-date, .gform_wrapper .gfield input[type="text"], .gform_wrapper .gfield input[type="email"], .gform_wrapper .gfield textarea, .gform_wrapper .gfield select, #bbpress-forums .bbp-search-form #bbp_search, .bbp-reply-form input#bbp_topic_tags, .bbp-topic-form input#bbp_topic_title, .bbp-topic-form input#bbp_topic_tags, .bbp-topic-form select#bbp_stick_topic_select, .bbp-topic-form select#bbp_topic_status_select, #bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content, .main-nav-search-form input, .search-page-search-form input, .chzn-container-single .chzn-single, .chzn-container .chzn-drop, .avada-select-parent select {
     color: #363839 !important;
 }
-
 
 .header-social .menu li {
     border-left: none !important;
@@ -137,7 +151,7 @@ input#s, input#s .placeholder, #comment-input input, #comment-textarea textarea,
 
 .image .image-extras .image-extras-content h4, .image .image-extras .image-extras-content .cats, .image .image-extras .image-extras-content .cats a, .image .image-extras .image-extras-content .price {
     color: #fff !important;
-    font: 11px 'PTSansRegular',arial,helvetica,sans-serif !important;
+    font: 11px 'PTSansRegular', arial, helvetica, sans-serif !important;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -147,16 +161,14 @@ input#s, input#s .placeholder, #comment-input input, #comment-textarea textarea,
 
 .image .image-extras .image-extras-content h3, .image .image-extras .image-extras-content h2, .image .image-extras .image-extras-content a {
     color: #fff !important;
-    font: 13px 'MuseoSlab500Regular',arial,helvetica,sans-serif !important;
+    font: 13px 'MuseoSlab500Regular', arial, helvetica, sans-serif !important;
     margin: 10px 0 0 !important;
     text-shadow: none !important;
 }
 
-
-
 .image .image-extras .image-extras-content h4, .image .image-extras .image-extras-content .cats, .image .image-extras .image-extras-content .cats a, .image .image-extras .image-extras-content .price {
     color: #ffffff !important;
-    font: 11px 'PTSansRegular',arial,helvetica,sans-serif !important;
+    font: 11px 'PTSansRegular', arial, helvetica, sans-serif !important;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -164,10 +176,8 @@ input#s, input#s .placeholder, #comment-input input, #comment-textarea textarea,
     text-shadow: none !important;
 }
 
-
-
-#wrapper .footer-area .col a,  #wrapper .footer-area .col {
-text-shadow: 0 0 0 !important;
+#wrapper .footer-area .col a, #wrapper .footer-area .col {
+    text-shadow: 0 0 0 !important;
 }
 
 .copyright {
