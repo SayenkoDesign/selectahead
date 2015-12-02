@@ -159,6 +159,11 @@ if ( 'modern' == Avada()->settings->get( 'mobile_menu_design' ) ) {
 			<?php avada_side_header(); ?>
 		<?php endif; ?>
 
+		<div id="ribbon">
+			25% SALE use code: <br />
+			SAHHOLIDAY
+		</div>
+
 		<div id="sliders-container">
 			<?php
 			if ( is_search() ) {
@@ -246,9 +251,5 @@ if ( 'modern' == Avada()->settings->get( 'mobile_menu_design' ) ) {
 		}
 		do_action( 'avada_before_main' );
 		?>
-		<div id="ribbon">
-			25% SALE use code: <br />
-			SAHHOLIDAY
-		</div>
 		<div id="main" class="clearfix <?php echo $main_class; ?>" style="<?php echo $main_css; ?>">
 			<div class="fusion-row" style="<?php echo $row_css; ?>">
