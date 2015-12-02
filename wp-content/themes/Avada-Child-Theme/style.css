@@ -197,3 +197,38 @@ input#s, input#s .placeholder, #comment-input input, #comment-textarea textarea,
     text-align: center;
     z-index: 99;
 }
+
+/** ribbon **/
+#ribbon {
+    color: #E72422;
+    text-align: center;
+    font-size: 16px;
+    font-weight:bold;
+    line-height: 1;
+    background-color: #7DB947;
+    padding: 16px;
+}
+
+@media all and (min-width: 980px) {
+    #ribbon {
+        padding: 16px 140px;
+        top: 235px;
+        right: -120px;
+        position: fixed;
+        z-index: 30;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+    }
+    .fusion-is-sticky + #ribbon {
+        top: 125px;
+    }
+}
+
+@media all and (min-width: 1400px) {
+    #ribbon, .fusion-is-sticky + #ribbon  {
+        top: 60px;
+        z-index: 10010;
+    }
+}
